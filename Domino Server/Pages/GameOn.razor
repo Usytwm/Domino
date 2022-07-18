@@ -1,0 +1,183 @@
+@page "/gameon"
+
+@using Domino_Server.Data
+@inject Params Params
+
+<PageTitle>GameOn</PageTitle>
+
+<style>
+    .parameters{
+        width: 40%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 10px 10px;
+        background: #F3F3F3;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div style="text-align: center; position: absolute; left: 0px; top: 0px; width: 60%; background-color: green; color: white;">
+        
+        <button class="initiator" @onclick="Jugar">Jugar</button>
+
+        <div style="margin-top: 40px;">
+            @for (var x = 0; x < jugadores.Count; x++)
+            {
+                <div class="tokenP1-div">@jugadores[x].Nombre:
+                    @for (int i = 0; i < jugadores[x].Hand.Count; i++)
+                    {
+                        <button class="tokenP">
+                            <p class="token-sep">
+                                <img class="token1" src="@ImageMaker(hands[@x][@i])[0]" height="27px" width="27px">
+                            </p>
+                            <p class="token-sep">
+                                <img class="token2" src="@ImageMaker(hands[@x][@i])[1]" height="27px" width="27px">
+                            </p>
+                        </button>
+                    }
+                </div>
+            }
+        </div>
+
+        <div style="margin-top: 40px;">
+            @for (int i = 0; i < moves.Count; i++)
+            {
+                <p>
+                    <button class="tokenP">
+                        <p class="token-sep">
+                            <img class="token1" src="@ImageMaker(piece_in_table)[0]" height="27px" width="27px">
+                        </p>
+                        <p class="token-sep">
+                            <img class="token2" src="@ImageMaker(piece_in_table)[1]" height="27px" width="27px">
+                        </p>
+                    </button>
+
+                    @moves[i]
+
+                    <button class="tokenP">
+                        <p class="token-sep">
+                            <img class="token1" src="@ImageMaker(last_play)[0]" height="27px" width="27px">
+                        </p>
+                        <p class="token-sep">
+                            <img class="token2" src="@ImageMaker(last_play)[1]" height="27px" width="27px">
+                        </p>
+                    </button>
+                </p>
+            }
+        </div>
+    </div>
+
+    <div class="parameters">
+        <p>Modo de Juego: @(Params.Mode == 10 ? Params.Game_Modes[0] : Params.Game_Modes[1]).</p>
+        <p>Actualmente hay @Params._NumbOP jugadores en juego.</p>
+        <p>Estos son los números disponibles en el juego actual: 
+            <p>@for (var i = 0; i < Params._Numbers.Count; i++) { 
+                string num = "";
+                if(i == Params._Numbers.Count - 1){ 
+                    num = Params._Numbers[i].ToString() + ".";
+                    @num
+                    break;
+                } 
+                num = Params._Numbers[i].ToString() + ",";
+                @num 
+            }</p>
+        </p>
+        <p>Juegos Ganados:
+            
+        </p>
+        <p>Puntuación actual:
+
+        </p>
+    </div>
+</body>
+
+@code {
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    private IUnion<int> union = new Usually<int>();
+    private IComparer<int> comparer = new Comparer_Usually();
+    private ICouple<int> teams = Params._Teams;
+    private IValor_Hand<int> ValorHand = new ValorHand<int>();
+    private IPosible_Pieces<int> Posible_Pieces = new Posible_Pieces<int>(); //tacto con esto
+    private IRepartir<int> Repartir_Usual = Params._Repart; //tacto con esto
+    private ITipeOfGame<int> game0 = new Clasic_Game<int>(); //tacto con esto
+    private IManager<int> board;
+    /////////////////////////////////////////////////////////////////////////////////////////////
+
+    private IFicha<int>? last_play;
+    private List<IJugador<int>> jugadores = new List<IJugador<int>>();
+    private List<string> moves = new List<string>();
+    private Iestado<int>? piece_in_table;
+    Dictionary<int, List<IFicha<int>>> hands = new Dictionary<int, List<IFicha<int>>>();
+
+    protected override async void OnInitialized()
+    {
+        Random random = new Random();
+        
+        IRules<int> Rules0 = new Rules<int>(Repartir_Usual, ValorHand,
+            Params.Mode, Posible_Pieces, game0, teams, comparer, union);
+
+        for (var i = 0; i < Params._NumbOP; i++)
+        {
+            jugadores.Add(new Jugador<int>(Params.Bots[random.Next(0, 10)], Params._PlayerType[i]));
+        }
+        
+        board = new Manager_Points<int>(Params._Numbers.ToArray(), jugadores, Rules0, int.Parse(Params._VictoryP));
+    }
+    protected async Task Jugar()
+    {
+        string text = "";
+        foreach (var item in board)
+        {
+            text = $"Tab: [";
+            foreach (var item1 in item.Pieces_In_Board)
+            {//imprime los valores por cada parte del tablero po los ue se puede tirar una ficha
+                text += " " + $"{item1.Value}" + " ";
+            }
+            text += "]";
+            text += $"{item.Progreso}" + "\n";
+
+            moves.Add(text);
+            piece_in_table = item;
+            last_play = item.Pieces_Played[item.Pieces_Played.Count-1];
+
+            OnChange();
+            
+            await Task.Delay(1000);
+            
+            StateHasChanged();
+
+        }
+    }
+    protected async Task OnChange(){
+        for(int i = 0; i < jugadores.Count; i++){
+            hands.Add(i, jugadores[i].Hand);
+        }
+
+        StateHasChanged();
+    }
+    private List<string> ImageMaker(Iestado<int> token)
+    {
+        List<string> numbers = new List<string> { };
+
+        foreach (var item in token.Pieces_In_Board)
+        {
+            numbers.Add("/" + item.Value.ToString() + ".jpg");
+        }
+
+        return numbers;
+    }
+    private List<string> ImageMaker(IFicha<int> token)
+    {
+        List<string> numbers = new List<string> { };
+
+        foreach (var item in token.Valores)
+        {
+            numbers.Add("/" + item.ToString() + ".jpg");
+        }
+
+        return numbers;
+    }
+}

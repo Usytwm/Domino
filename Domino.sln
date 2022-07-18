@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoEngine", "DominoEngine\DominoEngine.csproj", "{7DBD89B6-3090-45A8-AD24-C168A85289AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domino Server", "Domino Server\Domino Server.csproj", "{03B40C42-942F-4BB7-A81A-FDAD27529D24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DBD89B6-3090-45A8-AD24-C168A85289AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD89B6-3090-45A8-AD24-C168A85289AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD89B6-3090-45A8-AD24-C168A85289AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD89B6-3090-45A8-AD24-C168A85289AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6406A8-558E-43E8-8316-7189D6894FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6406A8-558E-43E8-8316-7189D6894FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6406A8-558E-43E8-8316-7189D6894FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6406A8-558E-43E8-8316-7189D6894FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B40C42-942F-4BB7-A81A-FDAD27529D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B40C42-942F-4BB7-A81A-FDAD27529D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B40C42-942F-4BB7-A81A-FDAD27529D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B40C42-942F-4BB7-A81A-FDAD27529D24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,114 @@
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\appsettings.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.staticwebassets.runtime.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.exe
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.deps.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.runtimeconfig.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.dll
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\ref\Domino Server.dll
+C:\Users\soyeladmin\Desktop\domino\Domino Server\bin\Debug\net6.0\Domino Server.pdb
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.csproj.AssemblyReference.cache
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfoInputs.cache
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfo.cs
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CoreCompileInputs.cache
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cache
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cs
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\scopedcss\bundle\Domino Server.styles.css
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\scopedcss\projectbundle\Domino Server.bundle.scp.css
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.dll
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\ref\Domino Server.dll
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.pdb
+C:\Users\soyeladmin\Desktop\domino\Domino Server\obj\Debug\net6.0\Domino Server.genruntimeconfig.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\appsettings.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.staticwebassets.runtime.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.exe
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.deps.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.runtimeconfig.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.dll
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\ref\Domino Server.dll
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\Domino Server.pdb
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\asd\Domino Server\bin\Debug\net6.0\DominoEngine.pdb
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.AssemblyReference.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfoInputs.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfo.cs
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CoreCompileInputs.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cache
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cs
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\scopedcss\bundle\Domino Server.styles.css
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\scopedcss\projectbundle\Domino Server.bundle.scp.css
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CopyComplete
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.dll
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\ref\Domino Server.dll
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.pdb
+C:\Users\soyeladmin\Desktop\asd\Domino Server\obj\Debug\net6.0\Domino Server.genruntimeconfig.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\appsettings.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.staticwebassets.runtime.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.exe
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.deps.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.runtimeconfig.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.dll
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\Domino Server.pdb
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\DominoEngine.dll
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\bin\Debug\net6.0\DominoEngine.pdb
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.AssemblyReference.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfoInputs.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfo.cs
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cs
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\scopedcss\bundle\Domino Server.styles.css
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\scopedcss\projectbundle\Domino Server.bundle.scp.css
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CopyComplete
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.dll
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\refint\Domino Server.dll
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.pdb
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\Domino Server.genruntimeconfig.cache
+C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\Domino Server\obj\Debug\net6.0\ref\Domino Server.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\appsettings.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.staticwebassets.runtime.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.exe
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.deps.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.runtimeconfig.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\Domino Server.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\DominoEngine.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\bin\Debug\net6.0\DominoEngine.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.csproj.AssemblyReference.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfoInputs.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.AssemblyInfo.cs
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.RazorAssemblyInfo.cs
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\scopedcss\bundle\Domino Server.styles.css
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\scopedcss\projectbundle\Domino Server.bundle.scp.css
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.csproj.CopyComplete
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\refint\Domino Server.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\Domino Server.genruntimeconfig.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\Domino Server\obj\Debug\net6.0\ref\Domino Server.dll
