@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Brian\\DominoEngine\\DominoEngine.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj",
       "projectName": "DominoEngine",
-      "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Brian\\DominoEngine\\DominoEngine.csproj",
+      "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Brian\\DominoEngine\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config"

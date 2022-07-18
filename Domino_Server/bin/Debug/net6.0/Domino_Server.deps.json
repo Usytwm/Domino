@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Domino_Server/1.0.0": {
+        "dependencies": {
+          "DominoEngine": "1.0.0"
+        },
+        "runtime": {
+          "Domino_Server.dll": {}
+        }
+      },
+      "DominoEngine/1.0.0": {
+        "runtime": {
+          "DominoEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domino_Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DominoEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

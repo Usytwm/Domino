@@ -12,7 +12,10 @@ Con la intencion de que el código sea fácil de mantener y ampliar con el tiemp
 # Ejecucion
 
 Para ejecutar el programa solo debe pararce en la raiz del proyecto y presionar la siguiente combinacion de botones
+
 [fn + f5] o [ctrl + f5]
+o ejecutar en la consola de comandos: dotnet run --project Domino_Server    
+
 # Desarrolladores
 ## Brian Inclan Quesada
 ## Dariel Martinez Perez
