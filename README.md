@@ -2,7 +2,7 @@
 
 ## INFORME
 
-![Image text](./images/dominos-15.jpg)
+![Image text](./imagnes/dominos-15.jpg)
 
 El objetivo del presente trabajo es elaborar un programa que permita acoplar e interpretar 
 los diferentes tipos de desarrollos del juego de Dominó. 

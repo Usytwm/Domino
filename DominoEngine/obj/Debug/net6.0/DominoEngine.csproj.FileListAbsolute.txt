@@ -10,30 +10,30 @@ C:\Users\soyeladmin\Desktop\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.cspro
 C:\Users\soyeladmin\Desktop\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.dll
 C:\Users\soyeladmin\Desktop\asd\DominoEngine\obj\Debug\net6.0\ref\DominoEngine.dll
 C:\Users\soyeladmin\Desktop\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.pdb
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.deps.json
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.dll
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.pdb
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.AssemblyReference.cache
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfoInputs.cache
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfo.cs
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.CoreCompileInputs.cache
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.dll
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\refint\DominoEngine.dll
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.pdb
-C:\Users\Brian\OneDrive\Escritorio\Nueva carpeta (2)\project\asd\DominoEngine\obj\Debug\net6.0\ref\DominoEngine.dll
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\bin\Debug\net6.0\DominoEngine.deps.json
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\bin\Debug\net6.0\DominoEngine.dll
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\bin\Debug\net6.0\DominoEngine.pdb
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.AssemblyReference.cache
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfoInputs.cache
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfo.cs
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.CoreCompileInputs.cache
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.dll
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\refint\DominoEngine.dll
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\DominoEngine.pdb
-C:\Users\Brian\OneDrive\Documentos\GitHub\Brian\DominoEngine\obj\Debug\net6.0\ref\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.deps.json
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\bin\Debug\net6.0\ref\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.pdb
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.AssemblyReference.cache
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfoInputs.cache
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfo.cs
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.CoreCompileInputs.cache
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\ref\DominoEngine.dll
+C:\Users\soyeladmin\Desktop\project1\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.deps.json
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\bin\Debug\net6.0\DominoEngine.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.AssemblyReference.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfoInputs.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.AssemblyInfo.cs
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\refint\DominoEngine.dll
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\DominoEngine.pdb
+C:\Users\Brian\OneDrive\Documentos\GitHub\project2\asd\DominoEngine\obj\Debug\net6.0\ref\DominoEngine.dll
 C:\Users\Brian\OneDrive\Documentos\GitHub\Domino\DominoEngine\bin\Debug\net6.0\DominoEngine.deps.json
 C:\Users\Brian\OneDrive\Documentos\GitHub\Domino\DominoEngine\bin\Debug\net6.0\DominoEngine.dll
 C:\Users\Brian\OneDrive\Documentos\GitHub\Domino\DominoEngine\bin\Debug\net6.0\DominoEngine.pdb

@@ -8,7 +8,7 @@
 <body>
     <EditForm Model="@Params" OnValidSubmit="OnValidSubmit">
         <div class="form-terms">
-            <label for="total-players">Total de Jugadores:</label>
+            <label for="gamemode">Modo de Juego:</label>
             <select class="form-select" aria-label="default" @onchange="@_Gamemode">
                 <option value="0" selected>Define una modalidad</option>
                 @for (int i = 0; i < Params.Game_Modes.Length; i++)
@@ -17,7 +17,62 @@
                 }
             </select>
         </div>
+
+        <div class="form-terms">
+            <label for="gametype">Tipo de Partida:</label>
+            <select class="form-select" aria-label="default" @onchange="@_GameType">
+                <option value="0" selected>Define un tipo de partida</option>
+                @for (int i = 0; i < Params.GameType.Length; i++)
+                {
+                    <option value="@i">@Params.GameType[i]</option>
+                }
+            </select>
+        </div>
         
+        <div class="form-terms">
+            <label for="union">Union de Fichas:</label>
+            <select class="form-select" aria-label="default" @onchange="@_Union">
+                <option value="0" selected>Define la forma de unir las piezas</option>
+                @for (int i = 0; i < Params.Union.Length; i++)
+                {
+                    <option value="@i">@Params.Union[i]</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-terms">
+            <label for="comparer">Comparador de valores:</label>
+            <select class="form-select" aria-label="default" @onchange="@_Comparer">
+                <option value="0" selected>Define un modo de comparar las fichas</option>
+                @for (int i = 0; i < Params.Comparer.Length; i++)
+                {
+                    <option value="@i">@Params.Comparer[i]</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-terms">
+            <label for="valor-hand">Valor de la mano:</label>
+            <select class="form-select" aria-label="default" @onchange="@_ValorHand">
+                <option value="0" selected>Define un modo de determinar el valor de una mano</option>
+                @for (int i = 0; i < Params.Valor_Hand.Length; i++)
+                {
+                    <option value="@i">@Params.Valor_Hand[i]</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-terms">
+            <label for="pieces">Fichas en Juego:</label>
+            <select class="form-select" aria-label="default" @onchange="@_Pieces">
+                <option value="0" selected>Define la cantidad de fichas en juego</option>
+                @for (int i = 0; i < Params.Pieces.Length; i++)
+                {
+                    <option value="@i">@Params.Pieces[i]</option>
+                }
+            </select>
+        </div>
+
         <div class="form-terms">
             <label for="total-players">Total de Jugadores:</label>
             <select class="form-select" aria-label="default" @onchange="@_NumbOP">
@@ -86,45 +141,19 @@
     protected void OnValidSubmit(){
         System.Console.WriteLine("ok");
     }
-    public void _Gamemode(ChangeEventArgs gm){
-        var auxiliar = gm.Value;
-        if (auxiliar.ToString() == "0"){
-            Params.Mode = 10;
-            Params._Numbers = new List<int>{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        }
-        else if (auxiliar.ToString() == "1"){
-            Params.Mode = 7;
-            Params._Numbers = new List<int>{ 0, 1, 2, 3, 4, 5, 6 };
-        }
-    }
+    public void _Gamemode(ChangeEventArgs gm) => Params._Gamemode(gm.Value.ToString());
+
     public void _NumbOP(ChangeEventArgs numb){
-        var auxiliar = numb.Value;
-        if (auxiliar.ToString() == "0") Params._NumbOP = 2;
-        else if (auxiliar.ToString() == "1") Params._NumbOP = 4;
-        
+        Params._NumberOfPlayers(numb.Value.ToString());
         numbOP = Params._NumbOP;
     }
-    public void _PlayersT(ChangeEventArgs type){
-        var auxiliar = type.Value;
-        if (auxiliar.ToString() == "0") Params._PlayerType.Add(new Botagorda<int>());
-        else if (auxiliar.ToString() == "1") Params._PlayerType.Add(new Pro_Player<int>());
-        else if (auxiliar.ToString() == "2") Params._PlayerType.Add(new Random_Player<int>());
-    }
-    public void _Teams(ChangeEventArgs tm){
-        var auxiliar = tm.Value;
-        if (auxiliar.ToString() == "0") Params._Teams = new No_Couples<int>();
-        else if (auxiliar.ToString() == "1") Params._Teams = new Two_in_Two_Couples<int>();
-    }
-    public void _Repart(ChangeEventArgs rp){
-        var auxiliar = rp.Value;
-        if (auxiliar.ToString() == "0") Params._Repart = new Repartir_Usual<int>();
-        else if (auxiliar.ToString() == "1") Params._Repart = new Repartir_Fibonacci<int>();
-    }
-    public void _PuntRules(ChangeEventArgs punt){
-        var auxiliar = punt.Value;
-        if (auxiliar.ToString() == "0") Params._VictoryP = "3";
-        else if (auxiliar.ToString() == "1") Params._VictoryP = "5";
-        else if (auxiliar.ToString() == "2") Params._VictoryP = "8";
-        else if (auxiliar.ToString() == "7") Params._VictoryP = $"{int.MaxValue}";
-    }
+    public void _PlayersT(ChangeEventArgs type) => Params._PlayersT(type.Value.ToString());
+    public void _Teams(ChangeEventArgs tm) => Params._MyTeams(tm.Value.ToString());
+    public void _Repart(ChangeEventArgs rp) => Params._MyRepart(rp.Value.ToString());
+    public void _PuntRules(ChangeEventArgs punt) => Params._PuntRules(punt.Value.ToString());
+    public void _Union(ChangeEventArgs union) => Params._Union(union.Value.ToString());
+    public void _Comparer(ChangeEventArgs comp) => Params._MyComparer(comp.Value.ToString());
+    public void _ValorHand(ChangeEventArgs value) => Params._ValorHand(value.Value.ToString());
+    public void _Pieces(ChangeEventArgs piece) => Params._PossiblePieces(piece.Value.ToString());
+    public void _GameType(ChangeEventArgs type) => Params._TypeOfGame(type.Value.ToString());
 }

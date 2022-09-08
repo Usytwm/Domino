@@ -96,13 +96,13 @@
 
 @code {
     /////////////////////////////////////////////////////////////////////////////////////////////
-    private IUnion<int> union = new Usually<int>();
-    private IComparer<int> comparer = new Comparer_Usually();
+    private IUnion<int> union = Params._UnionType;
+    private IComparer<int> comparer = Params._Comparer;
     private ICouple<int> teams = Params._Teams;
-    private IValor_Hand<int> ValorHand = new ValorHand<int>();
-    private IPosible_Pieces<int> Posible_Pieces = new Posible_Pieces<int>(); //tacto con esto
+    private IValor_Hand<int> ValorHand = Params._ValorHandType;
+    private IPosible_Pieces<int> Posible_Pieces = Params._Pieces; //tacto con esto
     private IRepartir<int> Repartir_Usual = Params._Repart; //tacto con esto
-    private ITipeOfGame<int> game0 = new Clasic_Game<int>(); //tacto con esto
+    private ITipeOfGame<int> game0 = Params._GameType; //tacto con esto
     private IManager<int> board;
     /////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -148,13 +148,16 @@
             await Task.Delay(1000);
             
             StateHasChanged();
-
         }
     }
     protected async Task OnChange(){
+        Dictionary<int, List<IFicha<int>>> auxiliar = new Dictionary<int, List<IFicha<int>>>();
+        
         for(int i = 0; i < jugadores.Count; i++){
-            hands.Add(i, jugadores[i].Hand);
+            auxiliar.Add(i, jugadores[i].Hand);
         }
+
+        hands = auxiliar;
 
         StateHasChanged();
     }

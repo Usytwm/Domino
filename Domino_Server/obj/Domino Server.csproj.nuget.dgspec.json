@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\Domino Server\\Domino Server.csproj": {}
+    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\Domino Server\\Domino Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\Domino Server\\Domino Server.csproj": {
+    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\Domino Server\\Domino Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\Domino Server\\Domino Server.csproj",
+        "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\Domino Server\\Domino Server.csproj",
         "projectName": "Domino Server",
-        "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\Domino Server\\Domino Server.csproj",
+        "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\Domino Server\\Domino Server.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\Domino Server\\obj\\",
+        "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\Domino Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj": {
-                "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj"
+              "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\DominoEngine.csproj": {
+                "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\DominoEngine.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj": {
+    "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\DominoEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\DominoEngine.csproj",
         "projectName": "DominoEngine",
-        "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\DominoEngine.csproj",
+        "projectPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\DominoEngine.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\Domino\\DominoEngine\\obj\\",
+        "outputPath": "C:\\Users\\Brian\\OneDrive\\Documentos\\GitHub\\project2\\asd\\DominoEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config"
